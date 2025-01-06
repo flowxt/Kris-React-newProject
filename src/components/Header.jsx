@@ -57,6 +57,17 @@ const Header = () => {
                     ))}
                 </motion.div>
             </div>
+            <div className="flex justify-center w-full ">
+            <div className="card bg-info text-grey-900 w-96 mt-20 justify-center bg-gradient-to-t from-violet-500 to-purple-400 shadow-md">
+  <div className="card-body ">
+    <h2 className="card-title">Besoin d'une séance </h2>
+    <p>N'hésitez pas à me contacter ou réserver directement sur le site</p>
+    <div className="card-actions justify-end">
+      <button className="btn">Réservation</button>
+    </div>
+    </div>
+  </div>
+</div>
         </header>
     );
 };
