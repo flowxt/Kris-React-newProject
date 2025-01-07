@@ -21,7 +21,7 @@ const NavBar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow custom-font3">
         <li><a>Accueil</a></li>
         <li><a>Suivi & Accompagnement</a></li>
         <li><a>Contact</a></li>
@@ -29,7 +29,7 @@ const NavBar = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl">Kris LaVoixDesAnges</a>
+    <a className="btn btn-ghost text-xl custom-font3">Kris LaVoixDesAnges</a>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
