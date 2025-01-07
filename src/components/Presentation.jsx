@@ -67,7 +67,7 @@ const Presentation = () => {
           émotions intenses, trop vastes pour que mon jeune être puisse les
           comprendre pleinement.
         </p>
-        <p className="text-gray-100 fade-in text-lg leading-relaxed text-gray-700 text-center">
+        <p className="text-gray-100 fade-in text-lg leading-relaxed  text-center">
           Aujourd’hui, guidée par les murmures des Anges et des Guides, je vous
           propose un accompagnement holistique unique. Grâce à une approche
           alliant psychologie positive et techniques énergétiques avancées, je
