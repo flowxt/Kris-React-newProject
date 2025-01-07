@@ -79,7 +79,7 @@ const Presentation = () => {
       vibratoire.”
     </blockquote>
   </div>
-  <div className="p-20 border-t-4 border-rose-400">
+  <div className="p-20 border-t-2 border-rose-400">
   <TiltedScroll />
   </div>
 </div>
