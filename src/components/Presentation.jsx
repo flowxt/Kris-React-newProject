@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import imageKris from "../images/car3.jpg";
+import TiltedScroll from "./TiltedScroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,7 +33,7 @@ const Presentation = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-7 px-6 space-y-8 bg-gradient-to-t from-gray-900 via-gray-800 to-grey-700 border-t-4 border-rose-400 font-custom3">
       {/* Titre et Image */}
-      <h2 className="text-3xl font-bold text-gray-700 fade-in">Kris</h2>
+      <h2 className="text-3xl font-bold text-gray-700 fade-in">Kris, LaVoixDesAnges</h2>
   <p className="text-lg text-rose-400 fade-in font-bold">
     Thérapeute Holistique et Énergétique
   </p>
@@ -77,6 +78,9 @@ const Presentation = () => {
       “Révélez la plénitude de votre être et initiez un processus de renaissance
       vibratoire.”
     </blockquote>
+  </div>
+  <div className="pb-20">
+  <TiltedScroll />
   </div>
 </div>
   );

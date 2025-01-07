@@ -8,29 +8,43 @@ export default {
         custom2: ["CustomFont2", "serif"],
         custom3: ["CustomFont3", "monospace"],
       },
+      animation: {
+        "skew-scroll": "skew-scroll 20s linear infinite",
+      },
+      keyframes: {
+        "skew-scroll": {
+          "0%": {
+            transform: "rotateX(20deg) rotateZ(-20deg) skewX(20deg)",
+          },
+          "100%": {
+            transform:
+              "rotateX(20deg) rotateZ(-20deg) skewX(20deg) translateY(-100%)",
+          },
+        },
+      },
     },
   },
   plugins: [require("daisyui")],
 };
 
-// // tailwind.config.js
-// module.exports = {
-//   theme: {
-//     extend: {
+// // //tailwind.config.js
+// // module.exports = {
+// //   theme: {
+// //     extend: {
 //       animation: {
-//         'star-movement-bottom': 'star-movement-bottom linear infinite alternate',
-//         'star-movement-top': 'star-movement-top linear infinite alternate',
+//         'skew-scroll': 'skew-scroll 20s linear infinite',
 //       },
 //       keyframes: {
-//         'star-movement-bottom': {
-//           '0%': { transform: 'translate(0%, 0%)', opacity: '1' },
-//           '100%': { transform: 'translate(-100%, 0%)', opacity: '0' },
-//         },
-//         'star-movement-top': {
-//           '0%': { transform: 'translate(0%, 0%)', opacity: '1' },
-//           '100%': { transform: 'translate(100%, 0%)', opacity: '0' },
+//         'skew-scroll': {
+//           '0%': {
+//             transform: 'rotateX(20deg) rotateZ(-20deg) skewX(20deg)',
+//           },
+//           '100%': {
+//             transform: 'rotateX(20deg) rotateZ(-20deg) skewX(20deg) translateY(-100%)',
+//           },
 //         },
 //       },
 //     },
-//   }
-// }
+//   },
+// //   plugins: [],
+// // };
