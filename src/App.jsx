@@ -4,14 +4,15 @@ import Accueil from './pages/Accueil';
 import Accompagnement from './pages/Accompagnement';
 import Contact from './pages/Contact';
 import Erreur404 from './pages/Erreur404';
-import Navigation from './components/Navigation';
+import NavBar from './components/NavBar';
+
 
 
 const App = () => {
   return (
     <BrowserRouter>
-    
-    <Navigation />
+  <NavBar />  
+   
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/accompagnement" element={<Accompagnement />} />
