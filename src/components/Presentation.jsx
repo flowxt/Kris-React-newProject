@@ -44,7 +44,7 @@ const Presentation = () => {
 
   {/* Contenu du Paragraphe */}
   <div
-    className="fade-in-container space-y-6 text-justify"
+    className="fade-in-container space-y-6 text-justify mx-auto max-w-3xl"
     ref={containerRef}
   >
     <p className="fade-in text-lg leading-relaxed text-center text-gray-200">

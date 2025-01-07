@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-gradient-to-r from-purple-100 to-pink-200">
+        <div className="navbar bg-gradient-to-r from-purple-100 to-pink-200 border-b-2 border-rose-300">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
