@@ -16,7 +16,7 @@ const Content = () => {
 
     return (
         <>
-        <div className='container-header bg-gradient-to-r from-purple-100 to-pink-200 flex flex-col md:flex-row justify-center items-center lg:h-screen md:h-screen'>
+        <div className='container-header bg-gradient-to-b from-pink-100 via-pink-200 to-fuchsia-300 flex flex-col md:flex-row justify-center items-center lg:h-screen md:h-screen'>
             <div className='logo-solo flex pt-4 md:pt-0 md:pr-8' ref={logoRef}>
                 <img src={image} alt='logo' className='h-full border-4 border-pink-200 rounded-full' />
             </div>
