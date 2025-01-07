@@ -21,9 +21,9 @@ const Content = () => {
                 <img src={image} alt='logo' className='h-full border-4 border-pink-200 rounded-full' />
             </div>
             <div className='content-logo flex flex-col items-center md:items-start p text-center md:text-left'>
-                <h1 className='text-2xl md:text-4xl font-bold font-custom3'>Kristelle Feron</h1>
-                <p className='text-xl md:text-2xl font-custom2'>"Le changement n'est pas douloureux, seul la résistance l'est..."</p>
-                <ul ref={ulRef} className="mt-8 space-y-4 text-lg md:text-3xl font-bold font-custom3 ml-8">
+                <h1 className='text-2xl md:text-4xl font-bold text-[#9b2c84] font-custom3'>Kristelle Feron</h1>
+                <p className='text-xl md:text-2xl font-medium text-[#6b4f77] italic font-custom2'>"Le changement n'est pas douloureux, seul la résistance l'est..."</p>
+                <ul ref={ulRef} className="mt-8 space-y-4 text-lg md:text-3xl font-bold text-[#6c4f77] font-custom3 ml-8">
                     <li className="p-4">Soin Energétique</li>
                     <li className="p-4">Accompagnement holistique</li>
                     <li className="p-4">Libération émotionnelle</li>
