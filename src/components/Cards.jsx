@@ -12,7 +12,7 @@ const Cards = () => {
         {
             id: 1,
             image: geomancie,
-            name: "Corinne Barreau",
+            name: "Geomancie et hypnose",
             description: "Réponse à une question précise par la Géomancie (Haute-Savoie)",
             buttonText: "Voir son profil",
             link: "https://www.instagram.com/geomancie74.ge/",
