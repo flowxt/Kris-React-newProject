@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
 import { cn } from "../lib/utils";
 import Card from "./Card";
@@ -70,7 +68,8 @@ export const InfiniteMovingCards = ({
       ref={containerRef}
       className={cn(
         "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
-        className
+        className,
+        "no-animation"
       )}
     >
       <ul
@@ -82,7 +81,7 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <li key={idx} className="w-[350px] max-w-full flex-shrink-0">
+          <li key={idx} className="w-[350px] h-[400px] max-w-full flex-shrink-0 mx-4">
             <Card
               image={item.image}
               name={item.name}

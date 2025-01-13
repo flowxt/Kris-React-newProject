@@ -58,7 +58,7 @@ const Accueil = () => {
                 <Content />
                 <Presentation />
             </div>
-            <div className='bg-gray-900 border-t-4 border-rose-400 flex flex-col items-center justify-center pt-7 px-6 space-y-8 font-custom2 pt-20'>
+            <div className='bg-gradient-to-b from-gray-900 to-gray-800 border-t-4 border-rose-400 flex flex-col items-center justify-center pt-7 px-6 space-y-8 font-custom2 pt-20'>
                 <h2 className='text-6xl text-zinc-100 pb-2 border-b-2 border-rose-400'>Mes Collaborateurs & Partenaires</h2>
                 <p className='text-zinc-100 text-xl font-custom3 pt-4 mx-9'>Je suis ravie de vous présenter mes collaborateurs et partenaires, des personnes de confiance partageant mes valeurs et ma passion pour le bien-être et l'harmonie. Chacun d'eux apporte une expertise unique dans son domaine, et ensemble, nous œuvrons pour vous offrir des soins et des accompagnements de qualité. Vous pouvez compter sur nous pour vous guider avec bienveillance sur votre chemin vers l'équilibre et la sérénité.</p>
                 <div className='cards flex justify-center pt-20 pb-10 font-custom3'>
